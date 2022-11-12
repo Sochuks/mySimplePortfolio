@@ -38,3 +38,24 @@ header{
   padding: 30px 18%;
   transition: .3s;
 }
+
+.logo img{
+  max-width: 100%;
+  width: 50px;
+  height: auto;
+}
+
+navlist{
+  display: flex;
+}
+
+navlist li {
+  position: relative;
+}
+
+navlist a{
+  font-size: var(--p-font);
+  color: var(--text-color);
+  font-weight: 500;
+  padding: 10px 27px;
+}
