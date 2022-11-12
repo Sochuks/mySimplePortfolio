@@ -60,20 +60,29 @@ header{
   padding: 10px 27px;
 }
 
+.nav-list a:hover {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: var(--main-color);
+  transition: ease .40s;
+  width: 100%;
+}
+/**
 .nav-list a::after {
-  content: ' ';
+  content: '';
   position: absolute;
   width: 100%;
-  heigth: 2px;
-  background: var(--main-color);
+  height: 2px;
+  color: var(--main-color);
   bottom: -5px;
-  left:0;
+  left: 0;
   transition: ease .40s;
 }
 
 .nav-list a:hover::after{
   width: 100%;
 }
+**/
 
 #menu-icon{
   font-size:35px;
@@ -81,5 +90,4 @@ header{
   z-index: 10001;
   cursor: pointer;
   display: none;
-
 }
