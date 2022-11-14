@@ -111,3 +111,26 @@ header{
   border: 2px solid var(--main-color);
   color: var(-bg-color);
 }
+
+section{
+  padding: 100px 18%;
+}
+
+.home{
+  min-height: 100vh;
+  width: 100%;
+  height:100%;
+  background-color: skyblue;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  grid-gap: 4rem;
+}
+
+.home-img img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  padding: 30px;
+}
