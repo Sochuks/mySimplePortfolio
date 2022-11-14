@@ -15,9 +15,9 @@
   --text-color: #333;
   --second-color: skyblue;
   --main-color: blueviolet;
-  --big-font:5rem;
-  --h2-font:3rem;
-  --p-font:1.1rem;
+  --big-font:2.5rem;
+  --h2-font:1.5rem;
+  --p-font:1rem;
 }
 
 body{
@@ -133,4 +133,35 @@ section{
   height: 100%;
   border-radius: 50%;
   padding: 30px;
+}
+
+.home-text h1{
+  margin: 10px 0 25px;
+  font-size: var(--big-font);
+  line-height: 1;
+  font-weight: 500;
+}
+
+.home-text h5{
+  margin-bottom: 23px;
+  font-size: 19px;
+  font-weight: 500;
+
+}
+
+span{
+  color: var(--main-color);
+}
+
+.home-text h3{
+  padding-top: 20px;
+  color: var(--main-color);
+  font-weight: 500;
+}
+
+.home-text p{
+  color: var(--main-color);
+  font-size: var(--p-font);
+  line-height: 25px;
+  marging-bottom:20px;
 }
