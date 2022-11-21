@@ -441,3 +441,41 @@ transform: perspective(1000px) rotateX(4.80deg) rotateY(10.23deg) scale3d(1.05, 
   transform: perspective(1000px) rotateX(4.80deg) rotateY(10.23deg) scale3d(1.05, 1.05, 1.05);
 
 }
+
+.cta-box{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+  grid-gap: 2rem;
+  align-items: center;
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.wrap{
+  background: #ffffff;
+  box-shadow: 18px 0 87px 0 rgb(10 15 70 / 7%);
+  padding: 50px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all .40s;
+}
+
+.one{
+  background: #baebcd;
+}
+.two{
+  background: #d9d1fa;
+}
+.three{
+  background: #faedce;
+}
+
+.wrap h3{
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+
+.wrap p{
+  font-size: var(--p-font);
+}
