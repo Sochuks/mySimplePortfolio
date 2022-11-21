@@ -341,3 +341,41 @@ transform: perspective(1000px) rotateX(4.80deg) rotateY(10.23deg) scale3d(1.05, 
 .layer:hover{
   background: linear-gradient(rgba(0,0,0,0.5) 0%, #191919);
 }
+
+.layer h3{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width:100%;
+  font-size: 20px;
+  color: var(--bg-color);
+  font-weight: 500;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: all .40s;
+
+}
+
+.layer:hover h3{
+  opacity: 1;
+  bottom: 52%;
+}
+
+.layer h5{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width:100%;
+  font-size: 17px;
+  color: var(--bg-color);
+  font-weight: 500;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: all .40s;
+
+}
+
+.layer:hover h5{
+  opacity: 1;
+  bottom: 40%;
+}
