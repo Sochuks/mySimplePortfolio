@@ -279,3 +279,28 @@ transform: perspective(1000px) rotateX(4.80deg) rotateY(10.23deg) scale3d(1.05, 
   margin-bottom:40px;
   line-height: 25px;
 }
+
+/**portfolio**/
+
+.heading{
+  text-align: center;
+}
+
+.heading h2{
+  font-size: var(--h2-font);
+  font-weight: 500;
+  margin: 7px 0px 20px;
+  line-height: 1.1;
+}
+
+.heading h3{
+  color: var(--main-color);
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.heading p{
+  color: var(--second-color);
+  font-size: var(--p-font);
+  line-height: 25px;
+}
