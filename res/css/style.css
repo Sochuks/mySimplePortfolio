@@ -379,3 +379,53 @@ transform: perspective(1000px) rotateX(4.80deg) rotateY(10.23deg) scale3d(1.05, 
   opacity: 1;
   bottom: 40%;
 }
+
+.service-content{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+  grid-gap: 2rem;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.row{
+  background: #ffffff;
+  box-shadow: 18px 0 87px 0 rgb(10 15 70 / 7%);
+  padding: 45px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all .40s;
+}
+
+.s img{
+  height: 65px;
+  width: 65px;
+  background: #f75124;
+  padding: 15px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.s.s-two img{
+  background: #baebcd;
+}
+
+.s.s-three img{
+  background: #faedce;
+}
+
+.s.s-four img{
+  background: #d9d1fa;
+}
+
+.row h3{
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+
+.row h5{
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 19px;
+}
