@@ -304,3 +304,40 @@ transform: perspective(1000px) rotateX(4.80deg) rotateY(10.23deg) scale3d(1.05, 
   font-size: var(--p-font);
   line-height: 25px;
 }
+
+.portfolio-content{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+  grid-gap: 2rem;
+  align-items: center;
+  margin-top: 5rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.col{
+  position: relative;
+}
+
+.col img {
+  max-width: 100%;
+  width:150px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.layer{
+  background: transparent;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 12px;
+  transition: all .40s;
+}
+
+.layer:hover{
+  background: linear-gradient(rgba(0,0,0,0.5) 0%, #191919);
+}
