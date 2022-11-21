@@ -479,3 +479,13 @@ transform: perspective(1000px) rotateX(4.80deg) rotateY(10.23deg) scale3d(1.05, 
 .wrap p{
   font-size: var(--p-font);
 }
+
+.subscribe{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width: 64%;
+  background: #8067f0eb;
+  padding:70px 150px;
+  margin: 100px auto;
+}
