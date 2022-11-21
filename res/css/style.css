@@ -231,3 +231,17 @@ header.sticky{
 font-size: 24px;
 font-weight: 500;
 }
+
+.sub-box p{
+font-size: var(--p-font);
+color: #3d3d3d;
+line-height: 30px;
+}
+
+.sub-box:hover{
+background:#fff;
+box-shadow:18px 0px 87px 0px rgb(10 15 70 / 7%);
+border-radius: 12px;
+will-change: transform;
+transform: perspective(1000px) rotateX(4.80deg) rotateY(10.23deg) scale3d(1.05, 1.05, 1.05);
+}
