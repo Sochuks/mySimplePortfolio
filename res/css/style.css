@@ -429,3 +429,15 @@ transform: perspective(1000px) rotateX(4.80deg) rotateY(10.23deg) scale3d(1.05, 
   font-weight: 500;
   margin-bottom: 19px;
 }
+
+.row p{
+  font-size: var(--p-font);
+  color: var(--second-color);
+  line-height: 25px;
+}
+
+.row:hover{
+  will-change: transform;
+  transform: perspective(1000px) rotateX(4.80deg) rotateY(10.23deg) scale3d(1.05, 1.05, 1.05);
+
+}
