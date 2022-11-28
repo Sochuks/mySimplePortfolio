@@ -530,3 +530,15 @@ transform: perspective(1000px) rotateX(4.80deg) rotateY(10.23deg) scale3d(1.05, 
   border-radius: 30px;
   cursor: pointer;
 }
+
+footer {
+  background: skyblue;
+  padding: 40px;
+  text-align: center;
+  transition: .4s;
+}
+
+footer p{
+  font-size: var(--p-font);
+  letter-spacing: 2px;
+}
