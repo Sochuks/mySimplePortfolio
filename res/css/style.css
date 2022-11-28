@@ -37,6 +37,12 @@ header {
   transition: .3s;
 }
 
+header.sticky{
+  background: red;
+  padding: 13px 18%;
+  box-shadow: 0px 0px 10px rgb(0 0 0/10%);
+}
+
 .logo img {
   max-width: 100%;
   width: 40px;
@@ -198,11 +204,7 @@ span {
 }
 
 
-header.sticky{
-  background: red;
-  padding: 13px 18%;
-  box-shadow: 0px 0px 10px rgb(0 0 0/10%);
-}
+
 
 .items {
   display: grid;
@@ -541,4 +543,39 @@ footer {
 footer p{
   font-size: var(--p-font);
   letter-spacing: 2px;
+}
+
+/** Responsiveness **/
+@media (max-width: 1420px){
+
+  header{
+    padding: 15px 5%;
+    transition: .4s;
+  }
+
+  header.sticky{
+    padding: 10px 5%;
+    transition: .4s;
+  }
+
+  section{
+    padding: 70px 5%;
+    transition: .4s;
+  }
+
+  .subscribe{
+    width: 95%;
+    transition: .4s;
+  }
+
+  :root{
+    --big-font: 3rem;
+    --h2-font: 2rem;
+    --p-font: 1rem;
+    transition:.4s;
+  }
+}
+
+@media (){
+
 }
