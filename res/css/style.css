@@ -542,9 +542,9 @@ transform: perspective(1000px) rotateX(4.80deg) rotateY(10.23deg) scale3d(1.05, 
   margin: 100px auto;
   text-align: center;
   border-radius: 12px;
-  /**background-image: image(img/sub.jpg);
-    background-size:cover;
-  **/
+  background-image: url(//../img/sub.jpg);
+  background-size:cover;
+
 }
 
 .subscribe h3{
