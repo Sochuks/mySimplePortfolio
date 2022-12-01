@@ -27,4 +27,14 @@ const sr = ScrollReveal({
 sr.reveal('.home-text', {delay:350, origin:'left'})
 sr.reveal('.home-img', {delay:350, origin:'right'})
 
-sr.reveal('.sub-services, .about, .portfolio, .services, .cta, .subscribe', {delay:200, origin:'bottom'})
+sr.reveal('.sub-service, .about, .portfolio, .services, .cta, .subscribe', {delay:200, origin:'bottom'})
+
+// loader
+var loader = function () {
+    setTimeout(function () {
+        if ($('#loader').length > 0) {
+            $('#loader').removeClass('show');
+        }
+    }, 1);
+};
+loader();
